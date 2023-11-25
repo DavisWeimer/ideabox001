@@ -3,6 +3,7 @@ import Ideas from '../Ideas/Ideas.js'
 import { useState } from 'react'
 import Form from '../Form/Form.js'
 
+
 function App() {
   const dummyIdeas = [
     { id: 1, title: 'Prank Travis', description: 'Stick googly eyes on all his stuff' },
