@@ -39,7 +39,7 @@ function Form({ addIdea }) {
         onChange={event => setDescription(event.target.value)}
       />
 
-      <button onClick = { event => sumbitIdeas(event)}>SUBMIT</button>
+      <button className='submit-button' onClick = { event => sumbitIdeas(event)}>SUBMIT</button>
     </form>
   )
 }
